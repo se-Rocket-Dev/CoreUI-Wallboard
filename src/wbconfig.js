@@ -8,8 +8,8 @@ const wbconfig = {
         appId : "wallboardapi"
     },
     production: {
-        hosturl  : 'https://localhost:8205/api',
-        wsurl    : 'wss://localhost:8205',
+        hosturl  : 'https://127.0.0.1:8205/api',
+        wsurl    : 'wss://127.0.0.1:8205',
         masterKey     : 'wallboardapi',
         clientKey     : 'wallboardapi',
         javascriptKey : 'wallboardapi',
